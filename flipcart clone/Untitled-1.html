@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarWheels - Your Ultimate Car Dealership</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/flipcart clone/one.css">
+</head>
+<body>
+  <header>
+    <h1>CarWheels</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Cars</a></li>
+        <li><a href="#">Financing</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <img src="https://images.zigcdn.com/images/revamp/zigwheels-logo-black.svg" alt="Car Dealership Banner">
+  </section>
+
+  <section class="featured-cars">
+    <div class="car">
+      <img src="https://media.zigcdn.com/media/model/2021/Oct/xuv700-5_600x400.jpg" alt="XUV 700">
+      <h2>MAHINDRA XUV 700</h2>
+      <p>Year: 2022</p>
+      <p>Price: 25,00,000</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <div class="car">
+      <img src="https://media.zigcdn.com/media/model/2023/Mar/front-1-4-left-1919318655_600x400.jpg" alt="FOTUNER">
+      <h2>TOYOTA FORTUNER</h2>
+      <p>Year: 2022</p>
+      <p>Price: 60,00,000</p>
+      <a href="#" class="btn">View Details</a>
+    </div>
+    <!-- Add more car entries here -->
+  </section>
+
+  <section class="financing">
+    <h2>Financing Options</h2>
+    <p>We offer flexible financing options to suit your budget. Whether you're looking for a lease or a loan, we have you covered.</p>
+    <a href="#" class="btn">Learn More</a>
+  </section>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>CarWheels is a premier car dealership dedicated to providing high-quality vehicles and exceptional customer service. With a wide range of cars and a team of experienced professionals, we make your car buying experience seamless and enjoyable.</p>
+    <a href="#" class="btn">Read Our Story</a>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Contact our team for assistance.</p>
+    <a href="#" class="btn">Get in Touch</a>
+  </section>
+  
+  
+  <section class="form-section">
+    <h2>Send us your inquiry</h2>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 CarWheels. All rights reserved.</p>
+  </footer>
+</body>
+</html>
